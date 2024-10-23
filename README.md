@@ -1,6 +1,14 @@
-# Path-Finding-Algorithm-Visualizers
-Dijkstra's algorithm and A* algorithm used and visualized to find the shortest path between a source and target destination. Python and pygame library have been used.
-Path finding algorithms are build on top of graph search algorithms and explore routes between nodes, starting at one node and traversing through relationships until the destination has been reached. These algorithms find the cheapest path in terms of the number of hops or weight.
-In 1956, the Dutch software engineer Edsger Wybe Dijkstra created the best-known of these pathfinding algorithms : Dijkstra. Algorithms such as the Breadth-first and Depth-first-search explore all possibilities : they iterate over all possible paths until they reach the target. However, it may not be necessary to examine all possible paths; Dijkstra’s algorithm eliminates useless traversal using shortcuts to find the optimal paths.
-The A* algorithm introduces a heuristic function into a regular graph-searching algorithm, essentially planning ahead at each step so a more optimal decision is made.
-What makes A* different and better for many searches is that for each node, A* uses a function f(n) that gives an estimate of the total cost of a path using that node.
+# Pathfinding Algorithms Visualizer
+
+A project visualizing pathfinding algorithms, developed for the **Data Structure and Algorithms** course.
+
+## Features
+- Visualizes the **Dijkstra's Algorithm** and **A\*** algorithm to find the shortest path between a source and target destination.
+- Interactive grid to demonstrate how these algorithms work in real-time.
+
+## Tools & Technologies
+- PyGame
+
+
+
+
